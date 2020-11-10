@@ -16,6 +16,7 @@
                 <h1><span id=main1>C</span><span id=main2>o</span><span id=main3>l</span><span id=main4>o</span><span
                         id=main5>r</span><span id=main6>P</span><span id=main7>i</span><span id=main8>x</span><span
                         id=main9>e</span><span id=main10>l</span>
+                        <i class="fa fa-paint-brush"></i>
                         <span class="shift1">
                             <button class="log">Log In</button>
                             <button class="log">Register</button>
@@ -25,7 +26,7 @@
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="templates.html">Templates</a></li>
+                <li><a href="templates1.html">Templates</a></li>
                 <li><a href="themes.html">Themes</a></li>
                 <li><a href="downloads.html">Downloads</a></li>
                 <li><a href="login.html">Login</a></li>
@@ -82,7 +83,7 @@
         </div>
 
         <p class="detail">See the latest color trend and make something cool. </p>
-        <button class="b2">Explore Templates</button>
+        <button class="b2" onclick="visitPageTemp();">Explore Templates</button>
     </div>
     <div class="prg">
         <div><img src="./image/Screenshot (231).png" class="theme"></div>
@@ -151,6 +152,8 @@
         y[b - 1].style.display = "block";
         setTimeout(image, 1000);
     }
+    function visitPageTemp()
+    {window.location = "templates1.html";}
 
 </script>
 

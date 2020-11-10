@@ -294,7 +294,17 @@ li a:hover{
   color: black;
 }
 .fa-user{
-  font-size: 1.1em;
+  font-size: 0.9em;
   margin-right: 25px;
   margin-left: 0px;
+  position: relative;
+  bottom: -11px;
+}
+.fa-paint-brush{
+  margin-top: 0px;
+  margin-left: 0px;
+  position: relative;
+  bottom: -12px;
+  font-size: 1em;
+  color:RGB(151,76,29);
 }
